@@ -1,0 +1,16 @@
+.input2{
+    height: auto;
+    display: flex;
+    flex:1;
+    width:100;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+    /* background-color: #2c2c30; */
+    color: white;
+    word-break:break-all;
+    padding: 4px 30px 20px 11px;
+    margin: 1px solid #888;
+
+}

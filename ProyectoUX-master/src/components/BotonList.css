@@ -1,0 +1,19 @@
+.icon{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: none;
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    user-select : none;
+    position: absolute;
+    z-index: 1;
+}
+
+.icon:hover{
+    background-color:  #444444 !important;
+}

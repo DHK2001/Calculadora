@@ -1,0 +1,78 @@
+.ventana{
+    display:flex;
+  flex-direction: column;
+  width:300px;
+  height:320px;
+  background-color: rgb(33, 33, 33);
+  position: absolute;
+  top: 0.5px;
+  border: 0.1px solid rgb(69, 69, 69);
+  position: absolute;
+  transition: 0.3s all;
+  left: 0px;
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 1;
+}
+
+.hide {
+  opacity: -1;
+  left: -300px;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.i3{
+    display: flex;
+    height: 40px;
+    justify-content: left;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.3rem;
+    width:40px;
+  }
+
+  .titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.4rem;
+    width:100%;
+  }
+
+  .sub{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    width:100%;
+  }
+
+  .caja{
+    position:absolute;
+    top:80px;
+    left:20px;
+    height: auto;
+    width: auto;
+  }
+
+  .caja2{
+    position:absolute;
+    top:160px;
+    left:20px;
+    height: auto;
+    width: auto;
+  }
+
+  .caja3{
+    position:absolute;
+    bottom:10px;
+    left:20px;
+    height: auto;
+    width: auto;
+  }
+  

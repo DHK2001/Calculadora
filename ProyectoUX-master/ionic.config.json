@@ -1,0 +1,7 @@
+{
+  "name": "ionic-react-calc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

@@ -1,0 +1,45 @@
+.boton{
+    height: 60px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 0.3px solid rgba(34, 34, 34);
+    cursor: pointer;
+    user-select : none;
+}
+
+.boton:hover{
+    background-color: #444444;
+}
+
+.operador{
+    background-color:  rgb(25, 25, 25);
+}
+
+.operador:hover{
+    background-color:  #444444 !important;
+}
+
+.memoria{
+    height: 35px;
+    border: none;
+    background-color: rgb(42, 42, 42);
+    font-size: small;
+}
+
+.memoria:hover{
+    background-color:  #444444 !important;
+    border: 0.3px solid rgb(154, 154, 154);
+}
+
+.igual {
+    background-color: #134269;
+}
+
+.igual:hover {
+    background-color: #296291;
+}
